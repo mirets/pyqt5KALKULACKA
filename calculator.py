@@ -62,7 +62,7 @@ class MainWindow(QtW.QWidget):
         else:
             self.result_field.setText(temp_string)
 
-    def func_press(self, operators):
+    def func_press(self, operator):
         temp_string = "".join(self.temp_nums)
         self.fin_nums.append(temp_string)
         self.fin_nums.append(operator)
